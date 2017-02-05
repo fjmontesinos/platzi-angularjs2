@@ -1,0 +1,35 @@
+TypeScript
+.................................................................
+
+Installar
+
+$ sudo apt-get install typescript
+
+
+Compilar código ts
+
+$ tsc fichero.ts
+
+
+Indicar a TypeScript que esté atento a los cambios en un fichero para compilar
+
+$ tsc --watch fichero.ts
+
+Iniciar la configuración de un tsconfig.json
+
+$ tsc --init
+
+Como ya tenemos configurado el archivo tsconfig.json -> Esta última estará atenta a todos los cambios
+
+$ tsc --watch 
+
+Typings 
+.................................................................
+
+Instalar typings
+
+$ sudo npm install typings -g
+
+Añadir jquery al proyecto
+
+$ typings install dt~jquery --global --save
